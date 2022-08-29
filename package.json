@@ -10,9 +10,13 @@
     "install": "cd client && npm install",
     "client": "cd client && npm start"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "idb": "^7.0.2"
+    "idb": "^7.0.2",
+    "if-env": "^1.0.4"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
@@ -23,8 +27,6 @@
     "type": "git",
     "url": "git+https://github.com/Jayad619/Text-editor.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Jayad619/Text-editor/issues"
   },
